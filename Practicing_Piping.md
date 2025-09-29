@@ -52,4 +52,54 @@ Solve
 
 Learned about appending output.
 
-## 
+## Redirecting input
+You can do interesting things with a lot of different programs using input redirection! In this level, we will practice using /challenge/run, which will require
+
+you to redirect the PWN file to it and have the PWN file contain the value COLLEGE! To write that value to the PWN file, recall the prior challenge on output 
+
+redirection from echo!
+
+Solve
+
+<img width="1478" height="507" alt="Screenshot 2025-09-28 140510" src="https://github.com/user-attachments/assets/806ac65f-b775-42a4-97dd-7c234dce9dba" />
+
+Learned about redirecting input.
+
+## Grepping stored results
+In preparation for more complex levels, we want you to:
+
+Redirect the output of /challenge/run to /tmp/data.txt. This will result in a hundred thousand lines of text, with one of them being the flag, in /tmp/data.txt. grep that for the flag!
+
+Solve
+
+<img width="1074" height="325" alt="Screenshot 2025-09-28 141641" src="https://github.com/user-attachments/assets/8dd38771-c4a8-4a82-a713-4b3eedc1ca84" />
+
+Learned about grepping stored results inside files.
+
+## Grepping live output
+Now try it for yourself! /challenge/run will output a hundred thousand lines of text, including the flag. grep for the flag!
+
+Solve
+
+<img width="1609" height="558" alt="Screenshot 2025-09-28 142034" src="https://github.com/user-attachments/assets/9e0ba02e-0706-4825-9e79-ea06187cd565" />
+
+Learned about grepping output.
+
+## Grepping errors
+The shell has a >& operator, which redirects a file descriptor to another file descriptor. This means that we can have a two-step process to grep through errors: first, we redirect standard error to standard output (2>& 1) and then pipe the now-combined stderr and stdout as normal (|)!
+
+Solve
+
+<img width="1660" height="637" alt="Screenshot 2025-09-28 143101" src="https://github.com/user-attachments/assets/a856d4ff-eb99-481e-ab8b-819182d1fbb0" />
+
+Learned about grepping errors.
+
+## Filtering with grep -v
+Sometimes, the only way to filter to just the data you want is to filter out the data you don't want. In this challenge, /challenge/run will output the flag to stdout, but it will also output over 1000 decoy flags (containing the word DECOY somewhere in the flag) mixed in with the real flag. You'll need to filter out the decoys while keeping the real flag!
+
+Solve
+
+<img width="1067" height="304" alt="Screenshot 2025-09-28 145455" src="https://github.com/user-attachments/assets/16c6186b-92b9-4d68-8b44-865f670c99a1" />
+
+Learned about filtering with grep using -v.
+
