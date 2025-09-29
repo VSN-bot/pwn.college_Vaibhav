@@ -36,4 +36,24 @@ Solve
 
 Learned about searching in manuals.
 
+## Helpful Programs
+In this level, you will practice reading a program's documentation with --help. Try it out!
+
+Solve
+
+<img width="1743" height="310" alt="Screenshot 2025-09-28 005437" src="https://github.com/user-attachments/assets/cda773db-4f52-4f41-84f4-87b6da4be16f" />
+
+Learned about reading a program's documentation with --help.
+
+## Help for Builtins
+In this challenge, we'll practice using help to look up help for builtins. This challenge's challenge command is a shell builtin, rather than a program. Like
+
+before, you need to lookup its help to figure out the secret value to pass to it!
+
+Solve
+
+<img width="1442" height="666" alt="Screenshot 2025-09-28 005654" src="https://github.com/user-attachments/assets/35853da2-8550-46ef-94a4-7bdbad4b946b" />
+
+Learned about builtin help command.
+
 
