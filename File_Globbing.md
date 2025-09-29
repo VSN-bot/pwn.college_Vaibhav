@@ -29,7 +29,8 @@ Solve
 
 Learned about matching files with [].
 
-## File Globbing
+## Matching paths with []
+
 Once more, we've placed a bunch of files in /challenge/files. Starting from your home directory, run /challenge/run with a single argument that bracket-globs into the absolute paths to the file_b, file_a, file_s,
 and file_h files!
 
