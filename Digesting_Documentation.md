@@ -56,4 +56,19 @@ Solve
 
 Learned about builtin help command.
 
+## Searching For Manuals
+
+This level is tricky: it hides the manpage for the challenge by randomizing its name. Luckily, all of the manpages are gathered in a searchable database, so you'll
+
+be able to search the man page database to find the hidden challenge man page! To figure out how to search for the right manpage, read the man page manpage by 
+
+doing: man man!
+
+Solve
+
+<img width="1322" height="473" alt="Screenshot 2025-09-28 140034" src="https://github.com/user-attachments/assets/0acd7975-99f5-422a-939b-94384de152b1" />
+
+Learned about searching for manuals.
+
+
 
