@@ -14,7 +14,7 @@ Aside from redirecting the output of echo, you can, of course, redirect the outp
 
 Solve
 
-<img width="1336" height="731" alt="Screenshot 2025-09-27 013942" src="https://github.com/user-attachments/assets/a2601394-d329-4d41-974c-23614bdc150a" />
+<img width="1209" height="690" alt="Screenshot 2025-09-28 014603" src="https://github.com/user-attachments/assets/75c13f0a-0b6c-4c3a-9bf8-76cd5c7a2277" />
 
 Learned about redirecting more output.
 
@@ -48,7 +48,7 @@ you won't get the flag!
 
 Solve
 
-<img width="1824" height="768" alt="Screenshot 2025-09-28 015023" src="https://github.com/user-attachments/assets/109f9118-e5a3-4c41-a6bb-f371f612ff82" />
+<img width="1824" height="768" alt="Screenshot 2025-09-28 015023" src="https://github.com/user-attachments/assets/ba031e54-c183-4418-8ef0-4e892a7a342f" />
 
 Learned about appending output.
 
