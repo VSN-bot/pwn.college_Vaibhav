@@ -103,3 +103,34 @@ Solve
 
 Learned about filtering with grep using -v.
 
+## Process substitution for input
+This process' /challenge/pwn must be piped into /challenge/college, but you'll need to intercept the data to see what pwn needs from you!
+
+Solve
+
+<img width="1559" height="378" alt="Screenshot 2025-09-29 014709" src="https://github.com/user-attachments/assets/eb9990cd-1cfb-42c0-bcd9-141c924c451a" />
+
+Learned about process substitution.
+
+## Writing to multiple programs
+In this challenge, we have /challenge/hack, /challenge/the, and /challenge/planet. Run the /challenge/hack command, and duplicate its output as input to both the /challenge/the and the /challenge/planet 
+
+commands!
+
+Solve
+
+<img width="1465" height="250" alt="Screenshot 2025-09-29 015517" src="https://github.com/user-attachments/assets/5d833a06-1dd8-464e-bceb-2666a67048a9" />
+
+Learned about writing to multiple programs.
+
+## Split-piping stderr and stdout
+In this challenge, you have:
+
+/challenge/hack: this produces data on stdout and stderr /challenge/the: you must redirect hack's stderr to this program /challenge/planet: you must redirect hack's stdout to this program Go get the flag!
+
+Solve
+
+<img width="1779" height="279" alt="Screenshot 2025-09-29 020322" src="https://github.com/user-attachments/assets/295b484b-a918-4753-8783-da054fbd5d53" />
+
+Learned about split piping for errors and outputs.
+
