@@ -27,4 +27,21 @@ Solve
 
 Learned about deleting characters.
 
-## 
+## Deleting newlines
+Now, let's combine this with deletion. In this challenge, we'll inject a bunch of newlines into the flag. Delete them with tr's -d flag and the escaped newline specification!
+
+Solve
+
+<img width="1525" height="248" alt="Screenshot 2025-09-28 184534" src="https://github.com/user-attachments/assets/b56739d3-205c-4393-94ee-47fa2a0e48c7" />
+
+Learned about deleting newlines.
+
+## Extracting specific sections of text
+In this challenge, the /challenge/run program will give you a bunch of lines with random numbers and single characters (characters of the flag) as columns. Use cut to extract the flag characters, then pipe them to tr -d "\n" (like the previous level!) to join them together into a single line. Your solution will look something like /challenge/run | cut ??? | tr ???, with the ??? filled out.
+
+Solve
+
+<img width="1497" height="330" alt="Screenshot 2025-09-28 191842" src="https://github.com/user-attachments/assets/0b6e8399-9c96-4c67-8f01-fc29542bd85e" />
+
+Learned about extracting specific columns of text.
+
