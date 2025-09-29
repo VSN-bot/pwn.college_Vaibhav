@@ -13,7 +13,8 @@ In this directory, I will not copy it to your home directory, but I will make it
 
 Solve
 
-<img width="659" height="166" alt="Screenshot 2025-09-24 182003" src="https://github.com/user-attachments/assets/7cf65645-01dd-4cc0-b6db-ef35b7d968ac" />
+<img width="570" height="118" alt="Screenshot 2025-09-24 181929" src="https://github.com/user-attachments/assets/b1e3f89c-f8c9-4900-a813-52890c835171" />
+
 
 Learned about invoking cat command using absolute paths.
 
