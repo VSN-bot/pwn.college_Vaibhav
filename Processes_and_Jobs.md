@@ -1,0 +1,103 @@
+#Processes and Jobs
+## Listing Processes
+In this level, I have once again renamed /challenge/run to a random filename, and this time made it so that you cannot ls the /challenge directory! But I also launched
+it, so you can find it in the running process list, figure out the filename, and relaunch it directly for the flag! Good luck!
+
+Solve
+
+<img width="1903" height="488" alt="Screenshot 2025-09-29 004109" src="https://github.com/user-attachments/assets/a9df5507-0fa3-45d6-9a52-4b65e2f62824" />
+
+Learned about listing processes.
+
+## Killing Processes
+Now, it's time to terminate your first process! In this challenge, /challenge/run will refuse to run while /challenge/dont_run is running! You must find the dont_run
+process and kill it. If you fail, pwn.college will disavow all knowledge of your mission. Good luck.
+
+Solve
+
+<img width="1818" height="372" alt="Screenshot 2025-09-29 004404" src="https://github.com/user-attachments/assets/c8db7a15-114d-471d-a77a-620bda876804" />
+
+Learned about killing processes.
+
+## Interrupting Processes
+Try it here! /challenge/run will refuse to give you the flag until you interrupt it. Good luck!
+
+Solve
+
+<img width="1380" height="399" alt="Screenshot 2025-09-29 004454" src="https://github.com/user-attachments/assets/4275974d-646e-4add-864c-684a88d1a4ed" />
+
+Learned about interrupting processes.
+
+## Suspending Processes
+This level's run wants to see another copy of itself running and using the same terminal. How? Use the terminal to launch it, then suspend it, then launch another
+
+copy while the first is suspended!
+
+Solve
+
+<img width="1210" height="688" alt="Screenshot 2025-09-29 105955" src="https://github.com/user-attachments/assets/1d07932d-5800-41b8-bb8f-3ff1d2005bf6" />
+
+Learned about suspending processes.
+
+## Resuming Processes
+This challenge's run needs you to suspend it, then resume it. Good luck!
+
+Solve
+
+<img width="1696" height="369" alt="Screenshot 2025-09-29 110036" src="https://github.com/user-attachments/assets/c5c3ebbb-9b73-4a80-8c50-44bb3119e380" />
+
+Learned about resuming processes.
+
+## Backgrounding Processes
+This level's run wants to see another copy of itself running, not suspended, and using the same terminal. How? Use the terminal to launch it, then suspend it,
+
+then background it with bg and launch another copy while the first is running in the background!
+
+Solve
+
+<img width="1443" height="687" alt="Screenshot 2025-09-29 110517" src="https://github.com/user-attachments/assets/00ce6d2b-9882-4e74-bbd6-b3cdbe3c5f64" />
+
+Learned about backgrounding processes.
+
+## Foregrounding Processes
+Imagine that you have a backgrounded process, and you want to mess with it some more. What do you do? Well, you can foreground a backgrounded process with fg 
+
+just like you foreground a suspended process! This level will walk you through that!
+
+Solve
+
+<img width="1389" height="661" alt="Screenshot 2025-09-29 113127" src="https://github.com/user-attachments/assets/67a28f93-57e9-4ca4-95fa-78ec435d213d" />
+
+Learned about foregrounding processes.
+
+## Starting Background Processes
+Launch /challenge/run backgrounded for the flag by appending &!
+
+Solve
+
+<img width="1268" height="375" alt="Screenshot 2025-09-29 113350" src="https://github.com/user-attachments/assets/768431aa-c61c-4d27-b76d-444a71a63df4" />
+
+Learned about starting background processes.
+
+## Process Exit Codes
+In this challenge, you must retrieve the exit code returned by /challenge/get-code and then run /challenge/submit-code with that error code as an argument.
+Good luck!
+
+Solve
+
+<img width="1498" height="434" alt="Screenshot 2025-09-29 113636" src="https://github.com/user-attachments/assets/06a09ad5-4a23-4f2c-a5ba-ef6461d0a7e1" />
+
+Learned about exit codes.
+
+## Killing Misbehaving Processes
+Your general workflow should be:
+
+Check what processes are running. Find /challenge/decoy in the list and figure out its process ID. kill it. Run /challenge/run to get the flag without being overwhelmed by decoys (you don't need to redirect its output; it'll write to the FIFO on its own). Good luck!
+
+Solve
+
+<img width="1460" height="687" alt="Screenshot 2025-10-01 145856" src="https://github.com/user-attachments/assets/c44325e7-3cb8-4748-8aca-51457671fa85" />
+
+### New Learnings
+Learned about killing misbehaving processes.
+
