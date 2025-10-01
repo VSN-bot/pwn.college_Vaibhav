@@ -4,7 +4,9 @@ In this challenge, I will copy the flag to the flag file in your home directory 
 
 Solve
 Flag: pwn.college{EIY7w5EYbNlikJJrPtGFjL711Cw.QXxcTN0wiNzAzNzEzW}
-
+```bash
+cat flag
+```
 In this challenge, I typed cat flag command to get the flag.
 
 Learned about cat command and how it works.
